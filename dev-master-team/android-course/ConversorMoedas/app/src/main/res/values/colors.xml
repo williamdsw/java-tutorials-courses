@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Define cores do tema -->
+    <color name="colorPrimary">#29D627</color>
+    <color name="colorPrimaryDark">#33702F</color>
+    <color name="colorAccent">#81C076</color>
+    <color name="colorLight">#FFFFFF</color>
+</resources>

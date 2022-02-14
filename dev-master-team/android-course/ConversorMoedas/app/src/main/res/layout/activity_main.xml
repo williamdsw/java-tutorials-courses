@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- "LinearLayout" = Define um tipo de Layout linear (ao lado) --><!-- "orientation" = Define orientacao do layout -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- "TextView" = Campo de Label -->
+    <!-- "layout_width" = Largura-->
+    <!-- "layout_height" = Altura -->
+    <!-- "text" = Conteudo -->
+    <!-- "gravity" = Alinha o conteudo no proprio elemento -->
+    <!-- "textSize" = Define tamanho da fonte -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/valor_em_real"
+        android:textSize="25sp" />
+
+    <!-- "EditText" = Campo de texto -->
+    <!-- "id" = Identificador do elemento -->
+    <!-- "hint" = Placeholder-->
+    <!-- "layout_marginTop" = Tamanho da margin top -->
+    <!-- "inputType" = Tipo do input -->
+    <!-- "padding" = Espacamento interno -->
+    <!-- "textAlignment" = Alinhamento do Texto -->
+    <!-- "textColor" = Cor do texto -->
+    <EditText
+        android:id="@+id/edit_value"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:inputType="numberSigned"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/valor_em_dollar" />
+
+    <TextView
+        android:id="@+id/text_dollar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/valor_em_euro" />
+
+    <TextView
+        android:id="@+id/text_euro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp" />
+
+    <!-- "Button" = Elemento de botao -->
+    <!-- "background" = Cor de fundo -->
+    <Button
+        android:id="@+id/button_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorLight"
+        android:text="@string/calcular" />
+
+</LinearLayout>

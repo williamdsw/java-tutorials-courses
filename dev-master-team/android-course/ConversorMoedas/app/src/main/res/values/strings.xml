@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Conversor de Moedas</string>
+
+    <!-- strings que sao reutilizadas em elementos -->
+    <string name="valor_em_real">Qual o valor em Real?</string>
+    <string name="valor_em_dollar">Valor em Dólar</string>
+    <string name="valor_em_euro">Valor em Euro</string>
+    <string name="calcular">Calcular</string>
+    <string name="valor">valor...</string>
+</resources>
