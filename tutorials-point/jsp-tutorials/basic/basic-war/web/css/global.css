@@ -1,0 +1,128 @@
+/* 
+    Created on : Jul 18, 2020, 3:57:05 PM
+    Author     : william
+*/
+
+body {
+    background-color: #333333;
+    color: white;
+}
+
+table.client-request {
+    width: 100%;
+    border: 1px solid black;
+}
+
+table.client-request tr {
+    background-color: #666666;
+}
+
+table.client-request td {
+    text-align: center;
+}
+
+h2.cookies-header {
+    text-align: center;
+}
+
+div.cookies-form-container {
+    width: 40rem;
+    max-width: 40rem;
+    margin: 1rem auto;
+    background-color: #333366;
+    padding: 1rem;
+    border: 2px dotted aquamarine;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+div.form-field {
+    margin: 1rem 0;
+}
+
+div.form-field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+div.form-field input[type="text"],
+div.form-field input[type="number"],
+div.form-field textarea {
+    width: 100%;
+    width: -moz-available;
+}
+
+div.form-field textarea {
+    resize: vertical;
+    padding: 10px;
+}
+
+div.form-field button {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+div.single-cookie {
+    display: inline-block;
+    border: 1px solid cadetblue;
+    padding: 1rem;
+}
+
+div.upload-file-field {
+    padding: 1rem;
+}
+
+div.file-info {
+    display: inline-block;
+    border: 1px solid gold;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+h2.sending-email-header {
+    text-align: center;
+}
+
+div.sending-email-form-container {
+    width: 40rem;
+    max-width: 40rem;
+    margin: 1rem auto;
+    background-color: wheat;
+    color: black;
+    padding: 1rem;
+    border: 8px dashed black;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+div.sending-email-form-container input,
+div.sending-email-form-container textarea {
+    background-color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    border: none;
+    padding: 5px;
+}
+
+div.sending-email-form-container input[type="text"],
+div.sending-email-form-container textarea {
+    border-bottom: 1px dashed black;
+    border-left: 1px dashed black;
+}
+
+div.sending-email-form-container button {
+    padding: 5px;
+}
+
+div.sending-email-form-container button[type="reset"] {
+    background-color: cornflowerblue;
+    border: 1px solid deepskyblue;
+    color: white;
+}
+
+div.sending-email-form-container button[type="submit"] {
+    background-color: darkolivegreen;
+    border: 1px solid yellowgreen;
+    color: white;
+}

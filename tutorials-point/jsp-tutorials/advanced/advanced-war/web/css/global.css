@@ -1,0 +1,53 @@
+/* 
+    Created on : 21/07/2020, 13:02:00
+    Author     : William
+*/
+
+html, body {
+    background-color: cadetblue;
+    color: aliceblue;
+    font-family: serif;
+}
+
+table.table-format {
+    background-color: darkolivegreen;
+    border: 1px dotted olive;
+    padding: 5px;
+}
+
+table.table-sql {
+    background-color: burlywood;
+    color: black;
+    padding: 10px;
+}
+
+table.table-products {
+    background-color: blue;
+}
+
+table.table-error {
+    background-color: red;
+    padding: 5px;
+}
+
+table.table-error td:first-child {
+    background-color: brown;
+    padding: 10px;
+    font-weight: bold;
+}
+
+table.table-error td:last-child {
+    border: none;
+    border-bottom: 1px dotted darkred;
+    text-align: center;
+}
+
+div.time-zone-info {
+    display: inline-block;
+    width: 15rem;
+    background-color: whitesmoke;
+    color: cornflowerblue;
+    border: 1px solid darkgray;
+    margin: 5px;
+    padding: 5px;
+}
