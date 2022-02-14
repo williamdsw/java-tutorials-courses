@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/com/williamdsw/jaxws/beans/Person.java=UTF-8
+encoding//src/com/williamdsw/jaxws/services/PersonService.java=UTF-8
+encoding//src/com/williamdsw/jaxws/services/PersonServiceService.java=UTF-8
+encoding//src/com/williamdsw/jaxws/services/PersonServiceServiceLocator.java=UTF-8
+encoding//src/com/williamdsw/jaxws/services/PersonServiceSoapBindingStub.java=UTF-8
